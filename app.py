@@ -32,7 +32,7 @@ def gen_frames():
            
             small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
 
-            # Convert the image from BGR color (which OpenCV uses) to RGB color
+            
             rgb_small_frame = small_frame[:, :, ::-1]
 
             
